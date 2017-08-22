@@ -469,10 +469,15 @@ tr > td:nth-child(2) {
 	border-radius: 100%;
 	position: absolute;
 	left: -60px;
+  transition: background 0.4s ease-in-out;
 	color: #fff;
     background: #4c9cef;
 	padding-top: 25px;
     box-shadow: -5px 6px 4px 0px rgba(90, 91, 95, 0.3);
+}
+
+.experience-circle:hover {
+  background: #f7639a;
 }
 
 .experience-circle i {
@@ -501,6 +506,10 @@ tr > td:nth-child(2) {
 
 .experience-content h4 {
 	line-height: 30px;
+}
+
+.experience-content ul {
+  margin-left: 2.5em;
 }
 
 .experience-content:after,
@@ -1821,4 +1830,28 @@ ul.portfolio li.active {
 
 .uipasta-credit a:hover {
 	color: #f7639a;
+}
+
+
+/*Company Logos*/
+.dox_logo {
+  margin-top: 0.5em;
+  height: 60%;
+  width: 50%;
+}
+
+.clab_logo {
+  margin-top: 0.5em;
+  height: 60%;
+  width: 50%;
+}
+
+.sap_logo {
+  margin-top: 1em;
+  height: 50%;
+  width: 70%;
+}
+
+.flipp_logo {
+  width: 80%;
 }
